@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+  font-family: 'Playfair Display', serif; 
+}
+#s{
+  background:rgb(181,116,75);
+  border-top:20px solid rgb(95, 43, 43) ;
+  color: #ffffff;
+  padding: 15px;
+  height: auto;
+  font-family: 'Playfair Display', serif; 
+}
+#s2{
+  background-size:cover;
+  background:rgb(216, 203, 194);
+}
+#s4{
+  background: rgb(172, 160, 141) ;
+}
+#s h1{
+  color:rgb(255, 255, 255);
+  font-size: 6vw;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+
+ul.menu{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-items: center;
+  
+}
+ul.menu li{
+  list-style: none;
+
+}
+ul.menu li a{
+  text-decoration: none;
+  color:white;
+  text-transform: uppercase;
+  transition: .3s ease-in-out;
+  padding: 0.5vw 1vw;
+}
+ul.menu li a:hover{
+  background:rgb(77, 92, 109);
+  padding: 0.5vw 1vw;
+  border-radius: 0.5vw;
+}
+/* ############################ HOME ########################### */
+
+.img1 {
+  margin-top: 20px;
+  border-radius: 20px;
+  border:3px solid whitesmoke;
+  margin-left: 30px;
+}
+ 
+h1.h1{
+  color:rgb(129,61,59);
+  font-size: 6vw;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  margin-top: 70px;
+ 
+}
+p.p1{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4vw;
+  text-indent: 4vw;
+  letter-spacing: 0.2vw;
+ 
+}
+/* ############################### PROFILE ######################## */
+
+h2.title{
+  font-family: 'Playfair Display', serif;
+  font-size: 6vw;
+  color: rgb(141,158,151);
+  margin-left: 50px;
+}
+h6.tm-info-label{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5vw;
+  margin-left:60px ;
+  margin-top: 45px;
+}
+.img2{
+  margin-top: 20px;
+  border-radius: 20px;
+}
+/* ################################# skill ########################### */
+h2.skill {
+  font-size:5vw;
+  color:rgb(230, 196, 186);
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  
+
+}
+.progress {
+  height: 1rem;
+  font-size: .75rem;
+  background-color: #000000;
+  text-align: center;
+  margin: auto;
+ 
+  
+}
+p.p2{
+  font-size: 1.3vw; 
+  margin-top: 0px;
+  
+}
+/* ###################################  Education ########################## */
+.container-Education {
+margin-left: 50px;
+}
+h1.Education {
+  font-size:5vw;
+  color:rgb(181,116,75);
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  margin-left: -40px;
+}
+h4.Education1{
+  font-size: 1.5vw;
+  margin-left: 0px;
+}
+h4.Education2{
+  font-size: 1.5vw;
+  margin-top: -2vw; 
+  margin-left: 0px;
+}
+h4.Education3{
+  font-size: 1.5vw;
+  margin-top: -2vw;  
+  margin-left: 0px;
+}
+
+
+.container-Education ul li {
+  font-size: 1.3vw;
+  font-family: 'Playfair Display', serif;
+}
+
+/* ###################################### contect ########################### */
+.row{
+  margin-left: 10px;
+}
+#s4 h5{
+  font-size:5vw;
+  color:rgb(181,116,75);
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  margin-left: -40px;
+}
+.facebook{
+  margin-left: 80px;
+
+}
+.ig{
+  margin-left: 50px;
+
+}
+.line{
+  margin-left:20px ;
+  
+}
+.img4{
+  margin-top: 20px;
+  border-radius: 20px;
+  border:3px solid whitesmoke;
+  margin-left: 30px;
+}
+
+/* ##################################### regiter  ############################# */
+.contianer-register h1{
+  font-size: 3vw;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  background: rgb(172, 160, 141) ;
+
+}
+
+.contianer-register{
+  font-size: 1.5vw;
+  background: rgb(172, 160, 141) ;
+  margin-top: 150px;
+  
+}
+
+input[type=text] {
+  padding: 1.5vw 2.3vw;
+  margin: 0px 0;
+  height: 15px;
+  background-color: #f8f8f8;
+  border:  rgb(172, 160, 141);
+  margin-top: 0.7vw;
+  margin-bottom: 0.9vw;
+ 
+}
+textarea {
+  width: 34vw;
+  height: 150px;
+  padding: 1.5vw 2.3vw;
+  border: 0.5vw  solid rgb(172, 160, 141);
+  border-radius: 0.7vw;
+  background-color: #f8f8f8;
+  font-size: 1.5vw;
+  resize: none;
+  text-align: left;
+
+}
+input[type=submit]{
+  margin-top: auto;
+
+}
+/* ###################################################################### */
+/* For mobile phones: */
+
+@media only screen and (max-width: 376px){
+
+  #s h1{
+    font-size: 8vw;
+  }
+  
+  ul.menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: -40px;
+
+  }
+  ul.menu li{
+    list-style: none;
+  
+  }
+  ul.menu li a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+    padding: 0.5vw 1vw;
+    font-size: 10px;
+  }
+  ul.menu li a:hover{
+    background:rgb(77, 92, 109);
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw;
+    font-size: 10px;
+  }
+  .img1{
+    border-radius: 20px;
+    border:0px solid whitesmoke;
+    width: 200px;
+    margin-left:70px;
+    margin-top: -10px;
+  }
+   
+  h1.h1{
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    margin-top: -10px;
+  }
+  p.p1{
+    font-size: 3vw;
+    text-indent: 4vw;
+    letter-spacing: 0.2vw;
+  }
+  /* #################################### */
+  h2.title{
+    font-size: 3rem;
+    margin-left: 0px;
+  }
+  h6.tm-info-label{
+    font-family: 'Playfair Display', serif;
+    font-size: 5vw;
+    margin-left:35px ;
+    margin-top: 23px;
+  }
+  .img2{
+    border-radius: 20px;
+    border:0px solid whitesmoke;
+    width: 200px;
+    margin-left:70px;
+    margin-top: 10px;
+  }
+  /* ##################################### */
+    h1.Education {
+      font-size: 3rem;
+      margin-left: -30px;
+    }
+    h4.Education1{
+      font-size: 5vw;
+      text-indent: 4vw;
+      letter-spacing: 0.2vw;
+    }
+    h4.Education2{
+      font-size: 5vw;
+      text-indent: 4vw;
+      letter-spacing: 0.2vw;
+    }
+    h4.Education3{
+      font-size: 5vw;
+      text-indent: 4vw;
+      letter-spacing: 0.2vw;
+    }
+    .container-Education ul li {
+      font-size: 4vw;
+    }
+    /* ###################################### */
+    h2.skill {
+      font-size:3rem;
+      margin-left: 5px;
+    }
+    .progress {
+      width: 70%;
+      margin-bottom: 20px;
+    }
+    p.p2{
+      font-size: 4vw; 
+      margin-top: -10px;
+      margin-left: 15px;
+    }
+    /* ######################################### */
+    #s4 h5{
+        font-size: 3rem;
+        margin-left: 0px;
+    }
+    .facebook{
+      margin-left: 80px;
+    
+    }
+    .ig{
+      margin-left: 120px;
+    
+    }
+    .line{
+      margin-left:160px ;
+      
+    }
+    .img4{
+      width: 200px;
+      margin-left:70px;
+      margin-top: 10px;
+    }
+    /* ##################### */
+    .contianer-register h1{
+      font-size: 2rem;
+      margin-left: 0px;
+      margin-top: 20px;
+    }
+    
+    .contianer-register{
+      font-size: 4.5vw;
+      background: rgb(172, 160, 141) ;
+      margin-top: -0px;
+      
+    }
+    
+    input[type=text] {
+      padding: 1.5vw 2.3vw;
+      margin: 0px 0;
+      height: 25px;
+      margin-top: 0.7vw;
+      margin-bottom: 0.9vw;
+      width: 300px;
+     
+    }
+    textarea {
+      width: 80vw;
+      height: 150px;
+      padding: 1.5vw 2.3vw;
+      border: 0.5vw  solid rgb(172, 160, 141);
+      border-radius: 0.7vw;
+      background-color: #f8f8f8;
+      font-size: 1.5vw;
+      resize: none;
+      text-align: center;
+    
+    }
+    input[type=submit]{
+      margin-top: 0px;
+    
+    }
+    .backhome a{
+      margin-left: 150px;
+    }
+
+}
+@media only screen and (min-width:377px) and (max-width: 426px){
+ 
+  .img1{
+    width: 300px;
+    margin-left:50px;
+    margin-top: -30px;
+  }
+  ul.menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: -30px;
+
+  }
+  ul.menu li{
+    list-style: none;
+  
+  }
+  ul.menu li a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+    padding: 0.5vw 1vw;
+    font-size: 10px;
+  }
+  ul.menu li a:hover{
+    background:rgb(77, 92, 109);
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw;
+    font-size: 10px;
+  }
+  h1.h1{
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    margin-top: -10px;
+  }
+  p.p1{
+    font-size: 3vw;
+    text-indent: 4vw;
+    letter-spacing: 0.2vw;
+  }
+  h2.title{
+    font-size: 3rem;
+    margin-left: 0px;
+  }
+  h6.tm-info-label{
+    font-family: 'Playfair Display', serif;
+    font-size: 5vw;
+    margin-left:35px ;
+    margin-top: 23px;
+  }
+  .img2{
+    border-radius: 20px;
+    border:0px solid whitesmoke;
+    width: 200px;
+    margin-left:70px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  h1.Education {
+    font-size: 3rem;
+    margin-left: -30px;
+  }
+  h4.Education1{
+    font-size: 5vw;
+    text-indent: 4vw;
+    letter-spacing: 0.2vw;
+  }
+  h4.Education2{
+    font-size: 5vw;
+    text-indent: 4vw;
+    letter-spacing: 0.2vw;
+  }
+  h4.Education3{
+    font-size: 5vw;
+    text-indent: 4vw;
+    letter-spacing: 0.2vw;
+  }
+  .container-Education ul li {
+    font-size: 4vw;
+  }
+  /* ###################################### */
+     h2.skill {
+      font-size:3rem;
+      margin-left: 5px;
+    }
+    .progress {
+      width: 60%;
+      margin-bottom: 20px;
+    }
+    p.p2{
+      font-size: 4vw; 
+      margin-top: -10px;
+      margin-left: 15px;
+    }
+    .contianer-register h1{
+      font-size: 2rem;
+      margin-left: 0px;
+      margin-top: 20px;
+    }
+    
+    .contianer-register{
+      font-size: 4.5vw;
+      background: rgb(172, 160, 141) ;
+      margin-top: -0px;
+      
+    }
+    
+    input[type=text] {
+      padding: 1.5vw 2.3vw;
+      margin: 0px 0;
+      height: 25px;
+      margin-top: 0.7vw;
+      margin-bottom: 0.9vw;
+      width: 245px;
+    
+    }
+    textarea {
+      width: 80vw;
+      height: 150px;
+      padding: 1.5vw 2.3vw;
+      border: 0.5vw  solid rgb(172, 160, 141);
+      border-radius: 0.7vw;
+      background-color: #f8f8f8;
+      font-size: 1.5vw;
+      resize: none;
+      text-align: center;
+    
+    }
+    input[type=submit]{
+      margin-top: 0px;
+    
+    }
+    .backhome a{
+      margin-left: 150px;
+    }
+    #s4 h5{
+      font-size: 3rem;
+      margin-left: 0px;
+  }
+  .facebook{
+    margin-left: 80px;
+
+  }
+  .ig{
+    margin-left: 120px;
+
+  }
+  .line{
+    margin-left:160px ;
+    
+  }
+  .img4{
+    width: 200px;
+    margin-left:70px;
+    margin-top: 10px;
+  }
+  } 
+/* ##############*/
+/* @media only screen and (max-width: 769px){
+  #s h1{
+    font-size: 8vw;
+  }
+  
+  ul.menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: -40px;
+
+  }
+  ul.menu li{
+    list-style: none;
+  
+  }
+  ul.menu li a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+    padding: 0.5vw 1vw;
+    font-size: 20px;
+  }
+  ul.menu li a:hover{
+    background:rgb(77, 92, 109);
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw;
+    font-size: 10px;
+  }
+  .img1{
+    border-radius: 20px;
+    border:0px solid whitesmoke;
+    width: 200px;
+    margin-left:60px;
+    margin-top: -10px;
+
+  }
+   
+  h1.h1{
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    margin-top: -10px;
+  }
+  p.p1{
+    font-size: 1.5vw;
+    text-indent: 4vw;
+    letter-spacing: 0.2vw;
+  }
+  /* #################################### */
+  /* h2.title{
+    font-size: 3rem;
+    margin-left: 0px;
+  }
+  h6.tm-info-label{
+    font-family: 'Playfair Display', serif;
+    font-size: 2vw;
+    margin-left:35px ;
+    margin-top: 23px;
+  }
+  .img2{
+    border-radius: 20px;
+    border:0px solid whitesmoke;
+    width: 200px;
+    margin-left:70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /* ##################################### */
+    /* h1.Education {
+      font-size: 3rem;
+      margin-left: -30px;
+    }
+    h4.Education1{
+      font-size: 2.5vw;
+      text-indent: 4vw;
+      letter-spacing: 0.2vw;
+      margin-left: -50px;
+    }
+    h4.Education2{
+      font-size: 2.5vw;
+      text-indent: 4vw;
+      letter-spacing: 0.2vw;
+      margin-left: -50px;
+    }
+    h4.Education3{
+      font-size: 2.5vw;
+      text-indent: 4vw;
+      letter-spacing: 0.2vw;
+      margin-left: -50px;
+     
+    }
+    .container-Education ul li {
+      font-size: 2vw;
+      margin-top: -5px;
+      margin-left: -20px;
+    }
+    /* ###################################### */
+    /* h2.skill {
+      font-size:3rem;
+      margin-left: 5px;
+      margin-top: 50px;
+    }
+    .progress {
+      width: 80%;
+      margin-bottom: 10px;
+    }
+    p.p2{
+      font-size: 2vw; 
+      margin-top: -10px;
+      margin-left: 15px;
+    } */
+    /* ######################################### */
+    /* #s4 h5{
+        font-size: 5rem;
+        margin-left: 0px;
+    }
+    .facebook{
+      margin-left: 200px;
+    
+    }
+    .ig{
+      margin-left: 250px;
+    
+    }
+    .line{
+      margin-left:300px ;
+      
+    }
+    .img4{
+      width: 300px;
+      margin-left:200px;
+      margin-top: 10px;
+    } */
+    /* ##################### */
+    /* .contianer-register h1{
+      font-size: 3rem;
+      margin-left: 0px;
+      margin-top: 20px;
+    }
+    
+    .contianer-register{
+      font-size: 4.5vw;
+      background: rgb(172, 160, 141) ;
+      margin-top: -0px;
+      
+    }
+    
+    input[type=text] {
+      padding: 1.5vw 2.3vw;
+      margin: 0px 0;
+      height: 50px;
+      margin-top: 0.7vw;
+      margin-bottom: 0.9vw;
+      width: 445px;
+     
+    }
+    textarea {
+      width: 80vw;
+      height: 150px;
+      padding: 1.5vw 2.3vw;
+      border: 0.5vw  solid rgb(172, 160, 141);
+      border-radius: 0.7vw;
+      background-color: #f8f8f8;
+      font-size: 1.5vw;
+      resize: none;
+      text-align: center;
+    
+    }
+    input[type=submit]{
+      margin-top: 0px;
+    
+    }
+    .backhome a{
+      margin-left: 300px;
+    } 
+  }*/ 
+
+/* @media only screen and (max-width: 1025px){
+  .facebook{
+    margin-left: 60px;
+  
+  }
+  .ig{
+    margin-left: 75px;
+  
+  }
+  .line{
+    margin-left:90px ;
+    
+  }
+} */
